@@ -1,0 +1,6 @@
+on linux:
+sudo apt update && sudo apt dist-upgrade
+sudo apt install ffmpeg
+#may need python 3, python-pip ...
+
+ffenmass -i /home/ubuntu/swine-voices-en -ext wav /home/ubuntu/swine-voices-en-wav
